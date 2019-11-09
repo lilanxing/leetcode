@@ -8,6 +8,7 @@ Note: You may not slant the container and n is at least 2.
 
 #include <iostream>
 #include <vector>
+#include <map>
 
 class Solution {
 public:
@@ -43,4 +44,6 @@ int main() {
     Solution s;
     const int max_area = s.MaxArea(height);
     std::cout << max_area << std::endl;
+
+    std::vector<std::vector<int>> a;
 }
