@@ -10,6 +10,7 @@
  * [[7], [2, 2, 3]]
  */
 
+#include <algorithm>
 #include <iostream>
 #include <vector>
 
