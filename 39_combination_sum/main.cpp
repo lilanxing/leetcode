@@ -19,7 +19,7 @@ public:
     std::vector<std::vector<int>> CombinationSum(std::vector<int>& candidates, int target) {
         std::vector<std::vector<int>> combs;
 	std::vector<int> eles;
-	std::sort(combs.begin(), combs.end());
+	std::sort(candidates.begin(), candidates.end());
 	__Backtrack(combs, eles, candidates, target, 0);
         return combs;
     }
